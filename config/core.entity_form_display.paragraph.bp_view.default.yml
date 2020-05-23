@@ -1,4 +1,4 @@
-uuid: b6059b6e-8568-4569-8a69-1debd1c02119
+uuid: 26786989-1b35-4a72-bb7d-3e0ed4a2df9b
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,7 @@ content:
       match_operator: CONTAINS
       size: '60'
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
     type: viewsreference_autocomplete
     region: content

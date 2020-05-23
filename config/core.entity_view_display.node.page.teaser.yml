@@ -1,15 +1,10 @@
-uuid: 5056231a-80be-48dc-93c3-b77613157d2c
+uuid: 5e738a40-4cda-424f-89d1-8bc07b11116e
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
-    - field.field.node.page.field_related_organization
-    - field.field.node.page.field_related_state_foi_resource
-    - field.field.node.page.field_test
-    - field.field.node.page.page_type
-    - field.field.node.page.upload
     - node.type.page
   module:
     - text
@@ -24,19 +19,12 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 0
+    weight: 100
     region: content
     settings:
       trim_length: 600
     third_party_settings: {  }
   links:
-    weight: 1
+    weight: 101
     region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden:
-  field_related_organization: true
-  field_related_state_foi_resource: true
-  field_test: true
-  page_type: true
-  upload: true
+hidden: {  }

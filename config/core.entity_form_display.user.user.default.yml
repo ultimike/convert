@@ -1,4 +1,4 @@
-uuid: 07b4262b-2ed0-449f-88b7-353b4707ebe3
+uuid: 61b4bdcb-2457-4d34-ba36-60b52a004b7d
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-    - path
     - user
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
@@ -19,40 +18,21 @@ content:
   account:
     weight: -10
     region: content
-    settings: {  }
-    third_party_settings: {  }
   contact:
     weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  google_analytics:
-    weight: 3
-    settings: {  }
-    third_party_settings: {  }
     region: content
   language:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   timezone:
     weight: 6
     region: content
-    settings: {  }
-    third_party_settings: {  }
   user_picture:
+    type: image_image
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    type: image_image
-    weight: 7
     third_party_settings: {  }
+    weight: -1
     region: content
 hidden: {  }

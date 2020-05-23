@@ -1,10 +1,12 @@
-uuid: 21c50c33-4aca-416a-be64-5fdc7a902a0b
+uuid: 8fd188ae-c81e-4759-a498-434ead8ee42e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.bp_show_indicators
     - paragraphs.paragraphs_type.bp_accordion
+_core:
+  default_config_hash: dWUEIHfl-TjiAjyVsXMeEO7aggRI4MTh1hXLi9ZdWAI
 id: paragraph.bp_accordion.bp_show_indicators
 field_name: bp_show_indicators
 entity_type: paragraph

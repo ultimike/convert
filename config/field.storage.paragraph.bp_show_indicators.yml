@@ -1,9 +1,11 @@
-uuid: 77f5627a-5e75-4669-bdbf-19d74076c695
+uuid: 7a6f445b-4ac0-47bb-8db5-c276cf9429f4
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: 6rbbrJG3xeLz-LGGPaRkGK7bPtLV-hUjunH8OlfACo0
 id: paragraph.bp_show_indicators
 field_name: bp_show_indicators
 entity_type: paragraph

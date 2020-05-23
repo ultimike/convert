@@ -1,4 +1,4 @@
-uuid: 5087e866-b9d8-4c3b-bfea-d8c7a71ab6b2
+uuid: e1ec6f95-81dc-4bc3-802f-7ba4b270dbc4
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,4 @@ path: node
 weight: -10
 plugin: node_search
 configuration:
-  rankings:
-    comments: 5
-    recent: 5
-    relevance: 5
+  rankings: {  }

@@ -1,10 +1,12 @@
-uuid: b21c78c4-5ba8-427a-9ead-c2a785dabd35
+uuid: be1b4c0f-1883-4b2b-9fa3-c32f3762cefd
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.bp_show_button
     - paragraphs.paragraphs_type.bp_accordion_section
+_core:
+  default_config_hash: L3Akr4qZdYxYE4hbcjPBmxBlv_bRG9a6M-NB9lcr1ss
 id: paragraph.bp_accordion_section.bp_show_button
 field_name: bp_show_button
 entity_type: paragraph

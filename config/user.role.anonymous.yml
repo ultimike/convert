@@ -1,23 +1,16 @@
-uuid: 20274e50-4571-4a8d-9f8e-273d4e496a98
+uuid: 74730ab8-47ed-4c67-8262-a5a5c8042348
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
-label: 'anonymous user'
+label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access all views'
   - 'access comments'
   - 'access content'
-  - 'access print'
-  - 'access site map'
   - 'access site-wide contact form'
   - 'search content'
-  - 'use text format filtered_html'
-  - 'view dynamic display blocks'
-  - 'view field_slideshowimage'
-  - 'view imagecache slideshow'
-  - 'view search_files results'
+  - 'use text format restricted_html'

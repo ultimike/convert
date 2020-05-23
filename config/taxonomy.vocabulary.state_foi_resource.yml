@@ -1,8 +1,0 @@
-uuid: 76a2c928-15cd-482f-ace5-f8e98383b79a
-langcode: en
-status: true
-dependencies: {  }
-name: 'State FOI resource'
-vid: state_foi_resource
-description: ''
-weight: 0

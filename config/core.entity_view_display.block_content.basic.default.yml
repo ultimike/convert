@@ -1,4 +1,4 @@
-uuid: c8f5bf29-2eff-466e-92f0-5d7e628bba59
+uuid: c8c4bbdd-495d-45d6-954d-093938d3275e
 langcode: en
 status: true
 dependencies:
@@ -16,9 +16,9 @@ mode: default
 content:
   body:
     label: hidden
-    weight: 1
+    type: text_default
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: text_default
-    region: content
 hidden: {  }

@@ -1,4 +1,4 @@
-uuid: 3d255cdb-e9b5-4138-b04e-332fcfb76a21
+uuid: 3900d2fd-1fe3-45f2-9c7e-905af4f336ff
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - cook.lindascook@gmail.com
+  - manello@example.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

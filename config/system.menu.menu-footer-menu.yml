@@ -1,8 +1,0 @@
-uuid: f0007037-7204-48f7-b432-38dd8ec1a4ef
-langcode: en
-status: true
-dependencies: {  }
-id: menu-footer-menu
-label: 'footer menu'
-description: 'Menu to displayed in the footer section'
-locked: false

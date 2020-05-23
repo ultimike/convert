@@ -1,17 +1,11 @@
-uuid: 84d2686c-649c-4dc5-ba13-b25068b56273
+uuid: 4c749a3a-b9f9-4b3d-8a68-bef1f63b8537
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_related_organization
-    - field.field.node.page.field_related_state_foi_resource
-    - field.field.node.page.field_test
-    - field.field.node.page.page_type
-    - field.field.node.page.upload
     - node.type.page
   module:
-    - file
     - text
     - user
 _core:
@@ -24,31 +18,11 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
-  comment:
-    label: hidden
-    type: comment_default
-    weight: 20
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   links:
-    weight: 1
+    weight: 101
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  upload:
-    type: file_table
-    weight: 2
-    region: content
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-hidden:
-  field_related_organization: true
-  field_related_state_foi_resource: true
-  field_test: true
-  page_type: true
+hidden: {  }

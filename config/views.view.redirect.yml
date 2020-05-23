@@ -1,4 +1,4 @@
-uuid: 5dbedbb6-ecb5-4768-87d5-d48c514e74c5
+uuid: 1e3e6766-8756-434c-976b-5ffb579a56d8
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - redirect
     - user
 _core:
-  default_config_hash: Tm6QoaGPvoGikEEJs6iuSB0LdSw3uzD9PPJ7DhkQJAg
+  default_config_hash: szL-A_Er9yaiA51EXGl3yYAj1T_LnNrYdxxY6UwRisU
 id: redirect
 label: Redirect
 module: views
@@ -15,7 +15,6 @@ description: 'List of redirects'
 tag: ''
 base_table: redirect
 base_field: rid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -41,7 +40,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Filter
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -359,7 +358,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-            placeholder: ''
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -400,7 +400,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-            placeholder: ''
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -444,9 +445,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-            placeholder: ''
-            min_placeholder: ''
-            max_placeholder: ''
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: true
           group_info:
             label: 'Status code'
@@ -537,6 +537,8 @@ display:
               anonymous: '0'
               administrator: '0'
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

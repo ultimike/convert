@@ -1,4 +1,4 @@
-uuid: fc02164d-a835-42f8-87e4-c19865c172b9
+uuid: e55c3451-8ba9-4a16-988c-70200433ee18
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
     - entity_reference_revisions
     - options
 _core:
-  default_config_hash: rpf9oQ5Et9gNdK5Tw2d_Arpme6-F5Sto4_xd0dQMxoQ
+  default_config_hash: o-KOZe9DZmHcwz01NY9WUcgDDmbqVippWwVy-M-mSYo
 id: paragraph.bp_accordion.default
 targetEntityType: paragraph
 bundle: bp_accordion
@@ -22,10 +22,7 @@ content:
   bp_accordion_expand:
     weight: 3
     label: hidden
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
+    settings: {  }
     third_party_settings: {  }
     type: boolean
     region: content
@@ -48,10 +45,7 @@ content:
   bp_show_indicators:
     weight: 4
     label: hidden
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
+    settings: {  }
     third_party_settings: {  }
     type: boolean
     region: content

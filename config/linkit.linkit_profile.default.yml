@@ -1,4 +1,4 @@
-uuid: 402dc851-774b-4d18-87dd-7708f8833ee1
+uuid: 9b1c2963-961f-41c6-a7d9-12ba8a3b31a5
 langcode: en
 status: true
 dependencies:
@@ -20,3 +20,4 @@ matchers:
       group_by_bundle: false
       include_unpublished: false
       substitution_type: canonical
+      limit: 100

@@ -1,9 +1,11 @@
-uuid: 2975bdaf-084d-438c-a4d9-48a9921f296b
+uuid: 8bffaa63-c305-4801-8e4e-6979126a936c
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: StM2qOSGVlq_gMLK-hLqySeGLnmMYkG114Fs9YC7B6o
 id: paragraph.bp_accordion_expand
 field_name: bp_accordion_expand
 entity_type: paragraph

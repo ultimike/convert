@@ -1,4 +1,4 @@
-uuid: 9471fa2b-8bbe-4071-844f-037d0a39e174
+uuid: 1d7d726a-537a-4df8-950a-ad638b0f9601
 langcode: en
 status: true
 dependencies:
@@ -26,6 +26,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content

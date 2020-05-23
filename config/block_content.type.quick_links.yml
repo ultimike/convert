@@ -1,8 +1,0 @@
-uuid: f1a521ca-e798-4d1e-822b-2fa7e235768b
-langcode: en
-status: true
-dependencies: {  }
-id: quick_links
-label: 'Quick links'
-revision: 0
-description: 'Use this to create a block that contains only internal or external links. '

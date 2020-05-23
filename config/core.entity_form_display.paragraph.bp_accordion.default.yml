@@ -1,4 +1,4 @@
-uuid: 90a35edb-7486-4448-88f8-74e08384a652
+uuid: 3ea804fb-9b0d-4660-9d7f-a17c7255b050
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: zSy0KOISVHBDX_J9egB1NORxWuoONNkl0VVkccnFfBU
+  default_config_hash: UuZkHESdibL7QFp3vH-ubGXwqGtSxNEI6UCusvV9IhA
 id: paragraph.bp_accordion.default
 targetEntityType: paragraph
 bundle: bp_accordion
@@ -34,7 +34,6 @@ content:
       edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
     third_party_settings: {  }
     region: content
   bp_background:

@@ -1,4 +1,4 @@
-uuid: 8a914b13-8d25-4824-b760-36e708e9d585
+uuid: 8869db1e-2af1-4b85-9474-3f41bea749fd
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,6 @@ dependencies:
     - paragraphs.paragraphs_type.bp_columns
     - paragraphs.paragraphs_type.bp_columns_three_uneven
     - paragraphs.paragraphs_type.bp_columns_two_uneven
-    - paragraphs.paragraphs_type.bp_contact
     - paragraphs.paragraphs_type.bp_image
     - paragraphs.paragraphs_type.bp_modal
     - paragraphs.paragraphs_type.bp_simple
@@ -20,7 +19,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: PFMAiY9LqbAvoE9ysB4SXZ3LRawPilhU7O520YB6cas
+  default_config_hash: BnTM60xAB8KjZCWIijFFIwFL_7olWt_aKdMEtF3YntI
 id: paragraph.bp_modal.bp_modal_body
 field_name: bp_modal_body
 entity_type: paragraph
@@ -43,7 +42,6 @@ settings:
       bp_columns: bp_columns
       bp_columns_three_uneven: bp_columns_three_uneven
       bp_columns_two_uneven: bp_columns_two_uneven
-      bp_contact: bp_contact
       bp_block: bp_block
       bp_tabs: bp_tabs
       bp_view: bp_view
@@ -72,25 +70,22 @@ settings:
       bp_columns_two_uneven:
         enabled: true
         weight: -24
-      bp_contact:
-        enabled: true
-        weight: -23
       bp_block:
         enabled: true
-        weight: -22
+        weight: -23
       bp_tabs:
         enabled: true
-        weight: -21
+        weight: -22
       bp_view:
         enabled: true
-        weight: -20
+        weight: -21
       bp_accordion_section:
-        weight: -19
+        weight: -20
         enabled: false
       bp_modal:
-        weight: -18
+        weight: -19
         enabled: false
       bp_tab_section:
-        weight: -17
+        weight: -18
         enabled: false
 field_type: entity_reference_revisions

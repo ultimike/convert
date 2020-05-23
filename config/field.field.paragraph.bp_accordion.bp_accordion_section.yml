@@ -1,4 +1,4 @@
-uuid: f4575192-57b1-4614-b1be-2280ac75ae08
+uuid: d913fc3f-254d-4c50-8b1d-f2c45f7f437c
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: zRomCqc6_htt3RBH_vH_5V6osyLi-Z-SfI1Bgjnh4eo
+  default_config_hash: 8peSrC5r9iuBtIW44MZORzyqTQujbwXkwsiS01Z-Wlo
 id: paragraph.bp_accordion.bp_accordion_section
 field_name: bp_accordion_section
 entity_type: paragraph
@@ -41,16 +41,13 @@ settings:
       bp_columns:
         weight: 14
         enabled: false
-      bp_contact:
+      bp_image:
         weight: 15
         enabled: false
-      bp_image:
+      bp_simple:
         weight: 16
         enabled: false
-      bp_simple:
-        weight: 17
-        enabled: false
       bp_view:
-        weight: 18
+        weight: 17
         enabled: false
 field_type: entity_reference_revisions

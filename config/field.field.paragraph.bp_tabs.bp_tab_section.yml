@@ -1,4 +1,4 @@
-uuid: 78e8f839-73b9-404e-8aec-06a650883b4e
+uuid: d582f700-fcbf-4799-92d1-4b32a4f57f81
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: FlNny-5i8B1ymfc7qsy80hhSnFGXG2HAIBPHxAd7cNM
+  default_config_hash: knQOGdCFH-2tqjb384qwCVCLyWqEilCOvj8IxkzW-aQ
 id: paragraph.bp_tabs.bp_tab_section
 field_name: bp_tab_section
 entity_type: paragraph
@@ -53,22 +53,19 @@ settings:
       bp_columns_two_uneven:
         weight: 24
         enabled: false
-      bp_contact:
+      bp_image:
         weight: 25
         enabled: false
-      bp_image:
+      bp_modal:
         weight: 26
         enabled: false
-      bp_modal:
+      bp_simple:
         weight: 27
         enabled: false
-      bp_simple:
+      bp_tabs:
         weight: 28
         enabled: false
-      bp_tabs:
-        weight: 29
-        enabled: false
       bp_view:
-        weight: 30
+        weight: 29
         enabled: false
 field_type: entity_reference_revisions
