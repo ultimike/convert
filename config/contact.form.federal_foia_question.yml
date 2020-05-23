@@ -1,0 +1,12 @@
+uuid: 71d3cca2-ab1c-4f52-8af7-dae9924a99c0
+langcode: en
+status: true
+dependencies: {  }
+id: federal_foia_question
+label: 'Federal FOIA question'
+recipients:
+  - dbevarly@nfoic.org
+reply: "Thank you for your message.\r\n\r\nWe will respond to you as soon as possible."
+weight: 0
+message: null
+redirect: null

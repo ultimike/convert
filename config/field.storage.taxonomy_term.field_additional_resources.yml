@@ -1,0 +1,19 @@
+uuid: f438fba0-618a-4279-8650-ee57c876dced
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - taxonomy
+id: taxonomy_term.field_additional_resources
+field_name: field_additional_resources
+entity_type: taxonomy_term
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

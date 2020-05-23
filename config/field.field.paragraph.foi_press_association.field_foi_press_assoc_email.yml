@@ -1,0 +1,19 @@
+uuid: 40cc0ad4-88e9-4a46-ba34-2d4b74fc4fc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_press_assoc_email
+    - paragraphs.paragraphs_type.foi_press_association
+id: paragraph.foi_press_association.field_foi_press_assoc_email
+field_name: field_foi_press_assoc_email
+entity_type: paragraph
+bundle: foi_press_association
+label: 'FOI press association email'
+description: 'Enter the email address of the press association.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

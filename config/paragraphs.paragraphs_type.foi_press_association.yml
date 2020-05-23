@@ -1,0 +1,7 @@
+uuid: de6b3a7f-0154-42c2-bc8b-b92604539276
+langcode: en
+status: true
+dependencies: {  }
+id: foi_press_association
+label: 'FOI press association'
+behavior_plugins: {  }

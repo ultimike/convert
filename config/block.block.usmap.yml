@@ -1,0 +1,26 @@
+uuid: c4fbe8ac-503d-4af3-9b1d-99cc72598257
+langcode: en
+status: true
+dependencies:
+  module:
+    - nfoic_us_map
+    - system
+  theme:
+    - nfoic
+id: usmap
+theme: nfoic
+region: content
+weight: -10
+provider: null
+plugin: us_map_block
+settings:
+  id: us_map_block
+  label: 'US Map'
+  provider: nfoic_us_map
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /organizations/map
+    negate: false
+    context_mapping: {  }

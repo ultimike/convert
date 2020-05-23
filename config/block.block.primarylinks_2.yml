@@ -1,0 +1,39 @@
+uuid: a61d1846-fe95-49c0-9dca-65dab047cc71
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - block_visibility_groups
+    - menu_block
+    - system
+  theme:
+    - nfoic
+id: primarylinks_2
+theme: nfoic
+region: sidebar_second
+weight: -3
+provider: null
+plugin: 'menu_block:primary-links'
+settings:
+  id: 'menu_block:primary-links'
+  label: 'FOI Summits'
+  provider: menu_block
+  label_display: visible
+  level: 1
+  depth: 1
+  expand: 1
+  parent: 'primary-links:menu_link_content:5b714d7d-cf4f-4b21-93bf-c5d335e2bcb2'
+  suggestion: nfoic_vertical
+visibility:
+  request_path:
+    id: request_path
+    pages: "/foi-center/foi-summits\r\n/foi-center/foi-summits/*"
+    negate: false
+    context_mapping: {  }
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

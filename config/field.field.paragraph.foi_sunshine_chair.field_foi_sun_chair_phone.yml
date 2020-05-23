@@ -1,0 +1,21 @@
+uuid: 62321921-5f58-4cdc-8ac5-576501e295fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_sun_chair_phone
+    - paragraphs.paragraphs_type.foi_sunshine_chair
+  module:
+    - telephone
+id: paragraph.foi_sunshine_chair.field_foi_sun_chair_phone
+field_name: field_foi_sun_chair_phone
+entity_type: paragraph
+bundle: foi_sunshine_chair
+label: 'FOI Sun Chair phone'
+description: 'Enter state sunshine chair phone number.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,17 @@
+uuid: 53684167-9de6-4c1c-aa16-c1dfe4efc977
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: state_foi_organizations
+label: 'State FOI organizations'
+logic: and
+conditions:
+  54c817bf-5519-4e73-974a-af1f3b7608fe:
+    id: request_path
+    pages: "/organizations\r\n/organizations/*"
+    negate: false
+    context_mapping: {  }
+    uuid: 54c817bf-5519-4e73-974a-af1f3b7608fe
+allow_other_conditions: false

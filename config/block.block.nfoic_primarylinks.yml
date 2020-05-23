@@ -1,0 +1,25 @@
+uuid: 22580679-212b-4393-9eb2-3ce0b37bfb24
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - nfoic
+id: nfoic_primarylinks
+theme: nfoic
+region: navigation_collapsible
+weight: -16
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: 'Primary links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,98 @@
+uuid: 34cb5347-c0cc-4b3f-9b36-275069f75a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_content
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.bp_block
+    - paragraphs.paragraphs_type.bp_column_wrapper
+    - paragraphs.paragraphs_type.bp_columns
+    - paragraphs.paragraphs_type.bp_image
+    - paragraphs.paragraphs_type.bp_simple
+    - paragraphs.paragraphs_type.bp_view
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_page_content
+field_name: field_page_content
+entity_type: node
+bundle: landing_page
+label: 'Page content'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bp_block: bp_block
+      bp_column_wrapper: bp_column_wrapper
+      bp_columns: bp_columns
+      bp_image: bp_image
+      bp_simple: bp_simple
+      bp_view: bp_view
+    target_bundles_drag_drop:
+      bp_accordion:
+        weight: 21
+        enabled: false
+      bp_accordion_section:
+        weight: 22
+        enabled: false
+      bp_blank:
+        weight: 23
+        enabled: false
+      bp_block:
+        enabled: true
+        weight: 24
+      bp_carousel:
+        weight: 25
+        enabled: false
+      bp_column_wrapper:
+        enabled: true
+        weight: 26
+      bp_columns:
+        enabled: true
+        weight: 27
+      bp_columns_three_uneven:
+        weight: 28
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 29
+        enabled: false
+      bp_contact:
+        weight: 30
+        enabled: false
+      bp_image:
+        enabled: true
+        weight: 31
+      bp_modal:
+        weight: 32
+        enabled: false
+      bp_simple:
+        enabled: true
+        weight: 33
+      bp_tab_section:
+        weight: 34
+        enabled: false
+      bp_tabs:
+        weight: 35
+        enabled: false
+      bp_view:
+        enabled: true
+        weight: 36
+      foi_press_association:
+        weight: 37
+        enabled: false
+      foi_publications:
+        weight: 38
+        enabled: false
+      foi_sunshine_chair:
+        weight: 39
+        enabled: false
+      state_attorney_general:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

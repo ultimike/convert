@@ -1,0 +1,33 @@
+uuid: d4e96a81-bb6c-4b5b-a987-c4b91edc349d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.foi_center
+  content:
+    - 'block_content:quick_links:7ec089d6-26e1-4e33-8168-bebf6db58f02'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - nfoic
+id: foicenterquicklinks
+theme: nfoic
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:7ec089d6-26e1-4e33-8168-bebf6db58f02'
+settings:
+  id: 'block_content:7ec089d6-26e1-4e33-8168-bebf6db58f02'
+  label: 'Quick Links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: foi_center
+    context_mapping: {  }

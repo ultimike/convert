@@ -1,0 +1,22 @@
+uuid: 7e9a2050-c48b-49a2-8dd1-2e5ebd91832e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nfoic
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: nfoic_content
+theme: nfoic
+region: content
+weight: -11
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,60 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+ /**
+ * The 7 Example colors are:
+ *
+ *  Orange: #ce793a
+ *  Dark gray: #63626a
+ *  Light gray: #a49f89
+ *  Red: #983834
+ *  Blue: #3a4e93
+ *  Olive green: #847e4e
+ *  Yellow: #fcf8ce
+ *  Black: #000000
+.*  Light Blue: #9ddcf9
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
+
+$example-orange: #ce793a;
+$example-dark-gray: #63626a;
+$example-light-gray: #a49f89;
+$example-red: #983834;
+$example-blue: #3a4e93;
+$example-olive-green: #847e4e;
+$example-yellow: #fcf8ce;
+$example-black: #000000;
+$example-light-blue: #9ddcf9;
+$example-white: #ffffff;
+
+$gray-base: $example-dark-gray;
+$brand-primary: $example-black;
+$brand-success: $example-light-blue;
+$brand-info: $example-black;
+
+$navbar-inverse-bg: $brand-info;
+$navbar-inverse-color: $example-yellow;
+$navbar-inverse-link-color: $example-yellow;
+$navbar-inverse-link-hover-color: $example-yellow;
+
+$headings-font-family: 'Roboto Mono', monospace;
+$headings-font-weight: 500;
+$headings-color: $example-black;
+$font-family-sans-serif: 'Nunito', sans-serif;
+
+$text-color: $gray-base;
+$font-size-base: 14px;
+$font-size-h1: floor(($font-size-base * 1.8));
+$font-size-h2: floor(($font-size-base * 1.6));
+$font-size-h3: ceil(($font-size-base * 1.3));

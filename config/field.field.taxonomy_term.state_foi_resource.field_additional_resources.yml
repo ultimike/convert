@@ -1,0 +1,23 @@
+uuid: cdb6da56-c59f-4621-89d6-c92971a25651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_additional_resources
+    - taxonomy.vocabulary.state_foi_resource
+  module:
+    - link
+id: taxonomy_term.state_foi_resource.field_additional_resources
+field_name: field_additional_resources
+entity_type: taxonomy_term
+bundle: state_foi_resource
+label: 'Additional resources'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

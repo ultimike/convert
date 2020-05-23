@@ -1,0 +1,158 @@
+/**
+ * Navbar styling.
+ */
+$mobile:          "screen and (max-width: #{$screen-xs-max})";
+$tablet:          "screen and (min-width: #{$screen-sm-min})";
+$normal:          "screen and (min-width: #{$screen-md-min})";
+$wide:            "screen and (min-width: #{$screen-lg-min})";
+$grid-breakpoint: "screen and (min-width: #{$grid-float-breakpoint})";
+
+body {
+  // Fix horizontal scrolling on iOS devices.
+  // http://drupal.org/node/1870076
+  position: relative;
+
+  &.navbar-is-static-top {
+    margin-top: 0;
+  }
+  &.navbar-is-fixed-top {
+    margin-top: ($navbar-height + ($grid-gutter-width / 2));
+  }
+  &.navbar-is-fixed-bottom {
+    padding-bottom: ($navbar-height + ($grid-gutter-width / 2));
+  }
+
+  @media #{$tablet} {
+    margin-top: ($grid-gutter-width / 2);
+  }
+  @media #{$mobile} {
+    &.toolbar-vertical {
+      &.navbar-is-fixed-top,
+      &.navbar-is-fixed-bottom {
+        .toolbar-bar {
+          position: fixed;
+        }
+        header {
+          z-index: 500;
+        }
+      }
+      // Default toolbar fixed height value.
+      // @see core/modules/toolbar/css/toolbar.icons.theme.css@261
+      &.navbar-is-fixed-top header {
+        top: 39px;
+      }
+    }
+  }
+}
+.navbar.container {
+  @media #{$tablet} {
+    max-width: (($container-sm - $grid-gutter-width));
+  }
+  @media #{$normal} {
+    max-width: (($container-md - $grid-gutter-width));
+  }
+  @media #{$wide} {
+    max-width: (($container-lg - $grid-gutter-width));
+  }
+}
+
+// Branding.
+.navbar .logo {
+  margin-right: -($grid-gutter-width / 2);
+  padding-left: ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
+  @media #{$grid-breakpoint} {
+    margin-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media #{$tablet} {
+  #navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+
+    .navbar-nav {
+      .open {
+        .dropdown-menu {
+          background-color: $brand-info;
+          > li > a {
+            color: #fcf8ce;
+            &:hover,
+            &:focus {
+              color: #fcf8ce;
+              background-color: darken($brand-info, 15%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#navbar.navbar-inverse{
+  @media #{$mobile} {
+    border: none;
+    background-repeat: no-repeat;
+  }
+  @media #{$tablet} {
+    background: url(../images/small_navbar.png);
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+  }
+  @media #{$normal} {
+    background: url(../images/medium_navbar.png);
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    padding-left: 1em;
+    font-size: 0.8em;
+  }
+  @media #{$wide} {
+    background: url(../images/large_navbar.png);
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    font-size: 1em;
+  }
+  .navbar-nav {
+    > .open {
+      a {
+        background: none;
+      }
+      .dropdown-menu > li > a {
+        font-family: $headings-font-family;
+        color: $example-white;
+        background: none;
+        &:focus {
+          background: none;
+        }
+      }
+    }
+    > li {
+      > a {
+        font-family: $headings-font-family;
+        font-size: 0.9em;
+        color: $example-white;
+      }
+      &.active > a {
+        background: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}

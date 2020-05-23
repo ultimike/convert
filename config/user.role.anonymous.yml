@@ -1,0 +1,23 @@
+uuid: 20274e50-4571-4a8d-9f8e-273d4e496a98
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access all views'
+  - 'access comments'
+  - 'access content'
+  - 'access print'
+  - 'access site map'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format filtered_html'
+  - 'view dynamic display blocks'
+  - 'view field_slideshowimage'
+  - 'view imagecache slideshow'
+  - 'view search_files results'

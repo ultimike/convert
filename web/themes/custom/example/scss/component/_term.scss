@@ -1,0 +1,151 @@
+.view-taxonomy-term {
+
+  .view-header {
+    > h2 {
+      clear: both;
+      padding-left: 15px;
+      padding-top: 1em;
+    }
+  }
+
+  .example-organization-maininfo {
+    .field--label {
+      padding-top: 1em;
+      font-size: 1.2em;
+    }
+    .field--name-field-affiliate-logo,
+    .field--name-field-foi-state-seal {
+      padding: 0 1em 1em 0;
+      @media (min-width: $screen-sm-min) {
+        float: left;
+      }
+    }
+
+    .field--name-description {
+      font-size: 1.1em;
+    }
+  }
+
+  .example-organization-contacts {
+    @media (min-width: $screen-sm-min) {
+      padding: 1em;
+    }
+    background-color: lighten($gray-light, 10%);
+    .example-organization-locations {
+      .social-media-links--platforms {
+        text-align: left;
+      }
+      .field--name-field-affiliate-website {
+        overflow: hidden;
+        padding: 0.5em 0;
+      }
+      .field--name-field-affiliate-address {
+        padding: 0.5em 0;
+      }
+    }
+    .example-organization-contact-name {
+      padding: 0.5em 0;
+    }
+  }
+
+  .example-state-foi-resource-maininfo {
+    .field--label {
+      font-size: 1.2em;
+    }
+
+    .field--name-field-foi-state-seal {
+      padding: 0 1em 1em 0;
+      @media (min-width: $screen-sm-min) {
+        float: left;
+      }
+    }
+
+    .example-state-foi-resource-quick-info {
+      .field {
+        margin-bottom: 1em;
+      }
+      .field--item {
+        font-size: 1.2em;
+      }
+    }
+
+    .field--name-field-foi-state-ag {
+      clear: both;
+    }
+
+    .field--type-entity-reference-revisions {
+      border-top: 1px solid $gray-light;
+      padding-top: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    .paragraph--type--foi-publications {
+      margin-bottom: 0.5em;
+      .field--name-field-foi-pub-title {
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  .example-state-foi-resource-contacts {
+    .paragraph--view-mode--default,
+    .example-state-foi-resource-sunshine-chairs {
+      margin-bottom: 1em;
+      .panel-heading {
+        background-color: $example-red;
+        color: #fff;
+      }
+      .panel-body {
+        background-color: lighten($gray-light, 10%);
+        .field--type-email {
+          overflow: hidden;
+        }
+        .paragraph--type--foi-sunshine-chair {
+          margin-bottom: 0.5em;
+        }
+      }
+    }
+  }
+
+  .example-state-foi-resource-related-orgs {
+    margin-bottom: 1em;
+    padding-left: 15px;
+    border-top: 1px solid #dcdcde;
+    padding-top: 0.5em;
+    .view-header {
+      .field--label {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+    }
+    .view-content {
+      padding-left: 0;
+    }
+  }
+
+  .view-display-id-related_organizations_block {
+    //padding-left: 15px;
+    clear: both;
+    .view-header {
+      //font-size: 1.2em;
+    }
+    .view-content {
+      //padding-left: 0;
+    }
+  }
+
+  .view-content {
+    padding-left: 15px;
+  }
+
+  .feed-icons {
+    display: none;
+  }
+
+}
+
+.view-featured-organization {
+  .views-field-name h4 {
+    font-weight: normal;
+  }
+}

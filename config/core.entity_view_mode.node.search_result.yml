@@ -1,0 +1,12 @@
+uuid: b3bb7011-7d4e-4c6c-976b-2d39f3e72e75
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 6GCOQ-jP2RbdbHA5YWQ6bT8CfGbqrBYKOSC_XY4E3ZM
+id: node.search_result
+label: 'Search result'
+targetEntityType: node
+cache: true

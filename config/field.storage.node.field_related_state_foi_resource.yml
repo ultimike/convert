@@ -1,0 +1,20 @@
+uuid: c0b698f7-bec9-4879-886b-674d89296e05
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_related_state_foi_resource
+field_name: field_related_state_foi_resource
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

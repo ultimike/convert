@@ -1,0 +1,40 @@
+uuid: 8b2b329d-af94-4fdd-aaa0-4d95b3747fde
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.short_teaser
+    - field.field.node.blog.body
+    - field.field.node.blog.field_related_organization
+    - field.field.node.blog.tags
+    - field.field.node.blog.upload
+    - node.type.blog
+  module:
+    - smart_trim
+    - user
+id: node.blog.short_teaser
+targetEntityType: node
+bundle: blog
+mode: short_teaser
+content:
+  body:
+    label: hidden
+    type: smart_trim
+    weight: 0
+    settings:
+      trim_length: '200'
+      trim_type: chars
+      trim_suffix: ...
+      more_link: '0'
+      more_text: More
+      summary_handler: ignore
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_related_organization: true
+  links: true
+  tags: true
+  upload: true

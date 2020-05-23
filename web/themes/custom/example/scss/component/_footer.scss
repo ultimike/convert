@@ -1,0 +1,24 @@
+body > footer.footer {
+  background-color: $gray-base;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  .region-footer {
+    text-align: center;
+    color: #fcf8ce;
+    a {
+      color: #fcf8ce;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .nav {
+      > li > a:hover {
+        background-color: darken($gray-base, 15%);
+        text-decoration: none;
+      }
+      padding-bottom: 10px;
+    }
+
+  }
+}

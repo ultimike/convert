@@ -1,0 +1,135 @@
+uuid: 17fb6af0-8aac-438c-b089-8f0db896200a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_social_media
+    - taxonomy.vocabulary.affiliate
+  module:
+    - social_media_links_field
+id: taxonomy_term.affiliate.field_social_media
+field_name: field_social_media
+entity_type: taxonomy_term
+bundle: affiliate
+label: 'Social media'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    platform: null
+    value: null
+    platform_values:
+      behance:
+        value: ''
+      pinterest:
+        value: ''
+      youtube:
+        value: ''
+      github:
+        value: ''
+      contact:
+        value: ''
+      facebook:
+        value: ''
+      slideshare:
+        value: ''
+      youtube_channel:
+        value: ''
+      googleplus:
+        value: ''
+      instagram:
+        value: ''
+      linkedin:
+        value: ''
+      bitbucket:
+        value: ''
+      twitter:
+        value: ''
+      vimeo:
+        value: ''
+      email:
+        value: ''
+      tumblr:
+        value: ''
+      drupal:
+        value: ''
+      rss:
+        value: ''
+default_value_callback: ''
+settings:
+  iconset: 'fontawesome:2x'
+  platforms:
+    behance:
+      description: ''
+      weight: '-10'
+      enabled: 0
+    instagram:
+      description: ''
+      weight: '-9'
+      enabled: 0
+    drupal:
+      description: ''
+      weight: '-8'
+      enabled: 0
+    tumblr:
+      description: ''
+      weight: '-7'
+      enabled: 0
+    email:
+      description: ''
+      weight: '-6'
+      enabled: 0
+    vimeo:
+      description: ''
+      weight: '-5'
+      enabled: 0
+    twitter:
+      enabled: '1'
+      description: ''
+      weight: '-4'
+    bitbucket:
+      description: ''
+      weight: '-3'
+      enabled: 0
+    linkedin:
+      description: ''
+      weight: '-2'
+      enabled: 0
+    googleplus:
+      description: ''
+      weight: '-1'
+      enabled: 0
+    pinterest:
+      description: ''
+      weight: '0'
+      enabled: 0
+    youtube_channel:
+      description: ''
+      weight: '1'
+      enabled: 0
+    slideshare:
+      description: ''
+      weight: '2'
+      enabled: 0
+    facebook:
+      enabled: '1'
+      description: ''
+      weight: '3'
+    contact:
+      description: ''
+      weight: '4'
+      enabled: 0
+    github:
+      description: ''
+      weight: '5'
+      enabled: 0
+    youtube:
+      description: ''
+      weight: '6'
+      enabled: 0
+    rss:
+      description: ''
+      weight: '7'
+      enabled: 0
+field_type: social_media_links_field

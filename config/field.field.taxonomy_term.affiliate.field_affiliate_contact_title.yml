@@ -1,0 +1,19 @@
+uuid: 70233ba7-6efd-434a-b25f-14161554394c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_affiliate_contact_title
+    - taxonomy.vocabulary.affiliate
+id: taxonomy_term.affiliate.field_affiliate_contact_title
+field_name: field_affiliate_contact_title
+entity_type: taxonomy_term
+bundle: affiliate
+label: 'Contact title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 77863d6a-7d8b-42b2-a945-eb20090a0fbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_foi_open_meetings_law
+    - taxonomy.vocabulary.state_foi_resource
+  module:
+    - link
+id: taxonomy_term.state_foi_resource.field_foi_open_meetings_law
+field_name: field_foi_open_meetings_law
+entity_type: taxonomy_term
+bundle: state_foi_resource
+label: 'FOI Open meetings law'
+description: 'Link to state open meeting law.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

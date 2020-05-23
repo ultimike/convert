@@ -1,0 +1,23 @@
+uuid: 1cf6142b-bc17-4510-8a02-94eea813dd40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_affiliate_website
+    - taxonomy.vocabulary.affiliate
+  module:
+    - link
+id: taxonomy_term.affiliate.field_affiliate_website
+field_name: field_affiliate_website
+entity_type: taxonomy_term
+bundle: affiliate
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -1,0 +1,203 @@
+uuid: 6122d5fb-a32d-46c6-a0b3-457fac0b8cd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.state_foi_resource.field_additional_resources
+    - field.field.taxonomy_term.state_foi_resource.field_foi_open_meetings_law
+    - field.field.taxonomy_term.state_foi_resource.field_foi_open_records_law
+    - field.field.taxonomy_term.state_foi_resource.field_foi_press_association
+    - field.field.taxonomy_term.state_foi_resource.field_foi_publication
+    - field.field.taxonomy_term.state_foi_resource.field_foi_state_ag
+    - field.field.taxonomy_term.state_foi_resource.field_foi_state_seal
+    - field.field.taxonomy_term.state_foi_resource.field_foi_sunshine_chair
+    - field.field.taxonomy_term.state_foi_resource.field_foia_request_form
+    - field.field.taxonomy_term.state_foi_resource.field_state_libraries_archives
+    - image.style.medium
+    - taxonomy.vocabulary.state_foi_resource
+  module:
+    - entity_reference_revisions
+    - field_group
+    - image
+    - link
+third_party_settings:
+  field_group:
+    group_main_info:
+      children:
+        - field_foi_state_seal
+        - group_quick_info
+        - field_foi_state_ag
+        - field_foi_publication
+        - field_state_libraries_archives
+        - field_additional_resources
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: 'nfoic-state-foi-resource-maininfo col-sm-8'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Main info'
+    group_contact_info:
+      children:
+        - group_foi_sunshine_chairs
+        - field_foi_press_association
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: 'nfoic-state-foi-resource-contacts col-sm-4'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Contact info'
+    group_quick_info:
+      children:
+        - field_foi_open_records_law
+        - field_foi_open_meetings_law
+        - field_foia_request_form
+      parent_name: group_main_info
+      weight: 26
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: nfoic-state-foi-resource-quick-info
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Quick info'
+    group_foi_sunshine_chairs:
+      children:
+        - field_foi_sunshine_chair
+      parent_name: group_contact_info
+      weight: 20
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: nfoic-state-foi-resource-sunshine-chairs
+        description: ''
+      label: 'FOI Sunshine Chair(s)'
+id: taxonomy_term.state_foi_resource.default
+targetEntityType: taxonomy_term
+bundle: state_foi_resource
+mode: default
+content:
+  field_additional_resources:
+    weight: 30
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_foi_open_meetings_law:
+    weight: 23
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_foi_open_records_law:
+    weight: 22
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_foi_press_association:
+    type: entity_reference_revisions_entity_view
+    weight: 22
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_foi_publication:
+    type: entity_reference_revisions_entity_view
+    weight: 28
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_foi_state_ag:
+    type: entity_reference_revisions_entity_view
+    weight: 27
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_foi_state_seal:
+    weight: 25
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_foi_sunshine_chair:
+    type: entity_reference_revisions_entity_view
+    weight: 21
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_foia_request_form:
+    weight: 24
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_state_libraries_archives:
+    weight: 29
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  description: true

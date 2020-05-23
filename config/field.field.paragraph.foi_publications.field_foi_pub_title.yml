@@ -1,0 +1,19 @@
+uuid: 7af1a1c9-6dc3-4127-a34f-3997b8466af7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_pub_title
+    - paragraphs.paragraphs_type.foi_publications
+id: paragraph.foi_publications.field_foi_pub_title
+field_name: field_foi_pub_title
+entity_type: paragraph
+bundle: foi_publications
+label: 'FOI pub title'
+description: 'Enter the title of the publication.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

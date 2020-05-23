@@ -1,0 +1,19 @@
+uuid: 25108efc-e064-4a48-93ad-80eef3dd3a46
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - taxonomy
+id: taxonomy_term.field_state_libraries_archives
+field_name: field_state_libraries_archives
+entity_type: taxonomy_term
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

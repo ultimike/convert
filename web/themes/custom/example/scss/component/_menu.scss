@@ -1,0 +1,17 @@
+.region-footer {
+  nav {
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.nav-pills {
+  > li {
+    > a {
+      padding: 0;
+    }
+  }
+}

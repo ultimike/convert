@@ -1,0 +1,12 @@
+uuid: c2a9905a-e129-49ae-8414-e894369a6f80
+langcode: en
+status: true
+dependencies: {  }
+id: user_admin
+label: 'user admin'
+weight: 7
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'administer permissions'
+  - 'administer users'

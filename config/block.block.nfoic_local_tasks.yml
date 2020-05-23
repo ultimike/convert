@@ -1,0 +1,22 @@
+uuid: 2c5b7ae9-edd6-4b49-a810-faa725100c8a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nfoic
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: nfoic_local_tasks
+theme: nfoic
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

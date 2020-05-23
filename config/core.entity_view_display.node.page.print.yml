@@ -1,0 +1,41 @@
+uuid: 3e0d5933-2c7d-43fe-93ca-ac5752a24d93
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.page.body
+    - field.field.node.page.field_related_organization
+    - field.field.node.page.field_related_state_foi_resource
+    - field.field.node.page.field_test
+    - field.field.node.page.page_type
+    - field.field.node.page.upload
+    - node.type.page
+  module:
+    - image
+    - user
+id: node.page.print
+targetEntityType: node
+bundle: page
+mode: print
+content:
+  field_test:
+    label: above
+    weight: 31
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_related_organization: true
+  field_related_state_foi_resource: true
+  page_type: true
+  upload: true

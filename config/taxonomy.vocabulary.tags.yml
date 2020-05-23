@@ -1,0 +1,10 @@
+uuid: bb727165-e447-49a5-920f-5f68172a614d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
+name: Tags
+vid: tags
+description: ''
+weight: 0

@@ -1,0 +1,23 @@
+uuid: c06d2405-2566-476f-9e46-e34c532cdade
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: state_foi_resource
+label: 'State FOI resource'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/organizations/state-foi-resource/[term:name]'
+selection_criteria:
+  05adc254-a4d9-42e0-8f0b-a919c8d9acff:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      state_foi_resource: state_foi_resource
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 05adc254-a4d9-42e0-8f0b-a919c8d9acff
+selection_logic: and
+weight: -5
+relationships: {  }

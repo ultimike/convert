@@ -1,0 +1,21 @@
+uuid: c882bfd7-015b-42a7-a696-c8f46ebfb0bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+    - taxonomy
+id: taxonomy_term.field_foi_press_association
+field_name: field_foi_press_association
+entity_type: taxonomy_term
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

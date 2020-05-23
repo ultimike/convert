@@ -1,0 +1,39 @@
+uuid: 4c5c09f4-fecd-4da6-87b0-63bac5fbdf8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_ag_address
+    - paragraphs.paragraphs_type.state_attorney_general
+  module:
+    - address
+id: paragraph.state_attorney_general.field_foi_ag_address
+field_name: field_foi_ag_address
+entity_type: paragraph
+bundle: state_attorney_general
+label: 'FOI AG address'
+description: 'Enter the state''s attorney general address.'
+required: false
+translatable: false
+default_value:
+  -
+    country_code: US
+default_value_callback: ''
+settings:
+  available_countries:
+    US: US
+  fields:
+    administrativeArea: administrativeArea
+    locality: locality
+    dependentLocality: dependentLocality
+    postalCode: postalCode
+    sortingCode: sortingCode
+    addressLine1: addressLine1
+    addressLine2: addressLine2
+    givenName: givenName
+    familyName: familyName
+    organization: '0'
+    additionalName: '0'
+  langcode_override: ''
+  field_overrides: {  }
+field_type: address

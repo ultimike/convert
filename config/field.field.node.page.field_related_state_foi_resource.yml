@@ -1,0 +1,28 @@
+uuid: 8990ea91-03e5-4741-867b-4c42da2fbd28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_state_foi_resource
+    - node.type.page
+    - taxonomy.vocabulary.state_foi_resource
+id: node.page.field_related_state_foi_resource
+field_name: field_related_state_foi_resource
+entity_type: node
+bundle: page
+label: 'Related state FOI resource(s)'
+description: 'Select any state FOI resource this content page is related to display it on the state''s FOI resource page.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      state_foi_resource: state_foi_resource
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

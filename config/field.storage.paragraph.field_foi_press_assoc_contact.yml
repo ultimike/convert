@@ -1,0 +1,21 @@
+uuid: 924fc67f-0a40-4ed6-9afd-c5f6ea2df870
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_foi_press_assoc_contact
+field_name: field_foi_press_assoc_contact
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

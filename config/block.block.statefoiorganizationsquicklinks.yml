@@ -1,0 +1,33 @@
+uuid: a7d7ed51-43fe-4203-a178-65a5a30d3436
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.state_foi_organizations
+  content:
+    - 'block_content:quick_links:09154ff2-5916-4656-b2ac-3ea1161dd952'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - nfoic
+id: statefoiorganizationsquicklinks
+theme: nfoic
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'block_content:09154ff2-5916-4656-b2ac-3ea1161dd952'
+settings:
+  id: 'block_content:09154ff2-5916-4656-b2ac-3ea1161dd952'
+  label: 'Quick Links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: state_foi_organizations
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: eba43a4c-4db8-4f92-a0ae-de2cd74a7600
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_foia_request_form
+    - taxonomy.vocabulary.state_foi_resource
+  module:
+    - link
+id: taxonomy_term.state_foi_resource.field_foia_request_form
+field_name: field_foia_request_form
+entity_type: taxonomy_term
+bundle: state_foi_resource
+label: 'FOIA Request form'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 1
+field_type: link

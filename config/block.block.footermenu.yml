@@ -1,0 +1,31 @@
+uuid: c11ab12a-e1e9-4e7b-885a-f4e5872b8144
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-footer-menu
+  module:
+    - block_visibility_groups
+    - system
+  theme:
+    - nfoic
+id: footermenu
+theme: nfoic
+region: footer
+weight: -16
+provider: null
+plugin: 'system_menu_block:menu-footer-menu'
+settings:
+  id: 'system_menu_block:menu-footer-menu'
+  label: 'footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: d78f222f-69a1-4ce7-8492-8921afedfadf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_press_assoc_phone
+    - paragraphs.paragraphs_type.foi_press_association
+  module:
+    - telephone
+id: paragraph.foi_press_association.field_foi_press_assoc_phone
+field_name: field_foi_press_assoc_phone
+entity_type: paragraph
+bundle: foi_press_association
+label: 'FOI press association phone'
+description: 'Enter the phone number of the press association.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

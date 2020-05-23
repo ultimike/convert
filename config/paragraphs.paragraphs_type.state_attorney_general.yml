@@ -1,0 +1,7 @@
+uuid: 0eb216a4-eefc-4840-9916-83eca63ece32
+langcode: en
+status: true
+dependencies: {  }
+id: state_attorney_general
+label: 'State attorney general'
+behavior_plugins: {  }

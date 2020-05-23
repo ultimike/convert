@@ -1,0 +1,23 @@
+uuid: 25a46be7-122c-4559-9599-4e041e7b65dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_ag_website
+    - paragraphs.paragraphs_type.state_attorney_general
+  module:
+    - link
+id: paragraph.state_attorney_general.field_foi_ag_website
+field_name: field_foi_ag_website
+entity_type: paragraph
+bundle: state_attorney_general
+label: 'FOI AG website'
+description: 'Enter the link and the link text for the state''s attorney general website.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

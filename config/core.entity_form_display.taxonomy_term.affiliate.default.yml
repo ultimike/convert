@@ -1,0 +1,183 @@
+uuid: cdad519f-2e6f-4abd-8e17-2c5c16e75b3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.affiliate.field_affiliate_address
+    - field.field.taxonomy_term.affiliate.field_affiliate_contact_email
+    - field.field.taxonomy_term.affiliate.field_affiliate_contact_name
+    - field.field.taxonomy_term.affiliate.field_affiliate_contact_title
+    - field.field.taxonomy_term.affiliate.field_affiliate_logo
+    - field.field.taxonomy_term.affiliate.field_affiliate_phone_number
+    - field.field.taxonomy_term.affiliate.field_affiliate_website
+    - field.field.taxonomy_term.affiliate.field_pages_and_blogs
+    - field.field.taxonomy_term.affiliate.field_related_state_foi_page
+    - field.field.taxonomy_term.affiliate.field_social_media
+    - image.style.thumbnail
+    - taxonomy.vocabulary.affiliate
+  module:
+    - address
+    - field_group
+    - image
+    - link
+    - path
+    - social_media_links_field
+    - telephone
+    - text
+third_party_settings:
+  field_group:
+    group_main_tabs:
+      children:
+        - group_location_info
+        - group_contact_info
+        - group_advanced
+      parent_name: ''
+      weight: 3
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: 'Main tabs'
+    group_location_info:
+      children:
+        - field_affiliate_address
+        - field_affiliate_website
+        - field_social_media
+        - field_affiliate_phone_number
+      parent_name: group_main_tabs
+      weight: 12
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Location info'
+    group_contact_info:
+      children:
+        - field_affiliate_contact_name
+        - field_affiliate_contact_title
+        - field_affiliate_contact_email
+      parent_name: group_main_tabs
+      weight: 13
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Contact info'
+    group_advanced:
+      children:
+        - path
+      parent_name: group_main_tabs
+      weight: 14
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Advanced
+id: taxonomy_term.affiliate.default
+targetEntityType: taxonomy_term
+bundle: affiliate
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_affiliate_address:
+    weight: 4
+    settings:
+      default_country: ''
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_affiliate_contact_email:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_affiliate_contact_name:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_affiliate_contact_title:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_affiliate_logo:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_affiliate_phone_number:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_affiliate_website:
+    weight: 5
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_related_state_foi_page:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_social_media:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: social_media_links_field_default
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_pages_and_blogs: true

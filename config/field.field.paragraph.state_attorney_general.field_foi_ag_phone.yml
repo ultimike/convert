@@ -1,0 +1,21 @@
+uuid: 8cd0e11c-e8e1-4e81-9e53-bd779a9467bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_ag_phone
+    - paragraphs.paragraphs_type.state_attorney_general
+  module:
+    - telephone
+id: paragraph.state_attorney_general.field_foi_ag_phone
+field_name: field_foi_ag_phone
+entity_type: paragraph
+bundle: state_attorney_general
+label: 'FOI AG phone'
+description: 'Enter state''s attorney general phone number.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

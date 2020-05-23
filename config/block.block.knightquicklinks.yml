@@ -1,0 +1,33 @@
+uuid: a8fb1524-cab5-4fd9-9b87-020984da2433
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.knight
+  content:
+    - 'block_content:quick_links:7902090d-d2a0-4436-a192-ad31b262ce5a'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - nfoic
+id: knightquicklinks
+theme: nfoic
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:7902090d-d2a0-4436-a192-ad31b262ce5a'
+settings:
+  id: 'block_content:7902090d-d2a0-4436-a192-ad31b262ce5a'
+  label: 'Quick Links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: knight
+    context_mapping: {  }

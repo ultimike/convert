@@ -1,0 +1,19 @@
+uuid: c58a3407-c85c-47f3-b52f-12c8fe4768b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_ag_email
+    - paragraphs.paragraphs_type.state_attorney_general
+id: paragraph.state_attorney_general.field_foi_ag_email
+field_name: field_foi_ag_email
+entity_type: paragraph
+bundle: state_attorney_general
+label: 'FOI AG email'
+description: 'Enter state''s attorney general email address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

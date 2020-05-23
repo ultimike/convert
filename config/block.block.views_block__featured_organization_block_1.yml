@@ -1,0 +1,31 @@
+uuid: cedd2232-eaf5-41f0-b218-9cd6bf0cd38e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.about_nfoic
+    - views.view.featured_organization
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - nfoic
+id: views_block__featured_organization_block_1
+theme: nfoic
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:featured_organization-block_1'
+settings:
+  id: 'views_block:featured_organization-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: about_nfoic
+    context_mapping: {  }

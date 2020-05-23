@@ -1,0 +1,22 @@
+uuid: d5ba7c8d-5d24-49c5-a98b-b13f2b1cf5fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+id: node.blog.status
+field_name: status
+entity_type: node
+bundle: blog
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

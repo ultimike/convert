@@ -1,0 +1,19 @@
+uuid: 06dac239-d28b-478e-bb1e-2515a22f6ade
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_press_assoc_contact
+    - paragraphs.paragraphs_type.foi_press_association
+id: paragraph.foi_press_association.field_foi_press_assoc_contact
+field_name: field_foi_press_assoc_contact
+entity_type: paragraph
+bundle: foi_press_association
+label: 'FOI press association contact'
+description: 'Enter the first and last name of the press association contact person.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

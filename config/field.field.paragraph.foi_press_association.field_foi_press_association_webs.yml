@@ -1,0 +1,23 @@
+uuid: 6c9b3a08-c23c-428e-9148-bda2b495e240
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_press_association_webs
+    - paragraphs.paragraphs_type.foi_press_association
+  module:
+    - link
+id: paragraph.foi_press_association.field_foi_press_association_webs
+field_name: field_foi_press_association_webs
+entity_type: paragraph
+bundle: foi_press_association
+label: 'FOI press association website'
+description: 'Enter the url and the link text for the press association website.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

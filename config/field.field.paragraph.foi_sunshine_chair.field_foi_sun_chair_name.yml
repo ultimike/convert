@@ -1,0 +1,19 @@
+uuid: 22b79982-ebb2-4c36-8644-18582c96766f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_sun_chair_name
+    - paragraphs.paragraphs_type.foi_sunshine_chair
+id: paragraph.foi_sunshine_chair.field_foi_sun_chair_name
+field_name: field_foi_sun_chair_name
+entity_type: paragraph
+bundle: foi_sunshine_chair
+label: 'FOI Sun Chair name'
+description: 'Enter state sunshine chair first and last name.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

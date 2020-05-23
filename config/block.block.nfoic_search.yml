@@ -1,0 +1,34 @@
+uuid: 686d39d7-419c-4a7c-b453-33f90973e00f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - search
+    - system
+  theme:
+    - nfoic
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: nfoic_search
+theme: nfoic
+region: sidebar_second
+weight: -15
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

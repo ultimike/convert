@@ -1,0 +1,38 @@
+uuid: 9b85cb3b-ebeb-4268-b121-ef621f53e288
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test
+    - node.type.page
+  module:
+    - image
+id: node.page.field_test
+field_name: field_test
+entity_type: node
+bundle: page
+label: Teset
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: null
+  file_directory: null
+  max_filesize: null
+  alt_field: null
+  alt_field_required: null
+  title_field: null
+  title_field_required: null
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

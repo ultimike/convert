@@ -1,0 +1,14 @@
+uuid: 3be33c06-46d4-4b83-9171-f19e27a71400
+name: 'National Freedom of Information Coalition'
+mail: nfoic@nfoic.org
+slogan: 'Protecting Your Right to Open Government'
+page:
+  403: ''
+  404: ''
+  front: /node/6023
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,23 @@
+uuid: 28655247-1cac-4736-907d-80ce3102716e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_state_libraries_archives
+    - taxonomy.vocabulary.state_foi_resource
+  module:
+    - link
+id: taxonomy_term.state_foi_resource.field_state_libraries_archives
+field_name: field_state_libraries_archives
+entity_type: taxonomy_term
+bundle: state_foi_resource
+label: 'State Libraries and Archives'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

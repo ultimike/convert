@@ -1,0 +1,23 @@
+uuid: a2a8a0b3-f6a4-481e-9749-13d658af2edb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_foi_pub_link
+    - paragraphs.paragraphs_type.foi_publications
+  module:
+    - link
+id: paragraph.foi_publications.field_foi_pub_link
+field_name: field_foi_pub_link
+entity_type: paragraph
+bundle: foi_publications
+label: 'FOI pub link'
+description: 'Enter the link to the publication.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,22 @@
+uuid: 323ea776-6fd3-4f53-b6e8-4e95026bdf21
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nfoic
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: nfoic_messages
+theme: nfoic
+region: highlighted
+weight: -16
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,26 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Example custom theme'
+description: 'Bootstrap-based example custom theme.'
+package: 'DrupalEasy'
+
+regions:
+  header: 'Top Bar'
+  header_right: 'Top Bar - Right'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'example/global-styling'
+  - 'example/bootstrap-scripts'
+  - 'example/fonts'

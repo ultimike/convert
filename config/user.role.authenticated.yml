@@ -1,0 +1,26 @@
+uuid: 7717ede4-f0ba-4fcb-95a3-c89d9ca885b0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access all views'
+  - 'access ckeditor'
+  - 'access comments'
+  - 'access content'
+  - 'access print'
+  - 'access site map'
+  - 'access site-wide contact form'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format filtered_html'
+  - 'view dynamic display blocks'
+  - 'view field_slideshowimage'
+  - 'view imagecache slideshow'
+  - 'view search_files results'

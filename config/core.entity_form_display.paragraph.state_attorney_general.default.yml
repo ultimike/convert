@@ -1,0 +1,52 @@
+uuid: 8ace63ae-bb8e-4012-9fe7-ac6484db8ef4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.state_attorney_general.field_foi_ag_address
+    - field.field.paragraph.state_attorney_general.field_foi_ag_email
+    - field.field.paragraph.state_attorney_general.field_foi_ag_phone
+    - field.field.paragraph.state_attorney_general.field_foi_ag_website
+    - paragraphs.paragraphs_type.state_attorney_general
+  module:
+    - address
+    - link
+    - telephone
+id: paragraph.state_attorney_general.default
+targetEntityType: paragraph
+bundle: state_attorney_general
+mode: default
+content:
+  field_foi_ag_address:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_foi_ag_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_foi_ag_phone:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_foi_ag_website:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,84 @@
+/**
+ * Styles for landing pages, including the home page.
+ */
+.path-frontpage {
+  h1 {
+    display: none;
+  }
+  .example-donate {
+    border: 5px solid black;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+  }
+}
+
+
+.paragraph {
+  .viewsreference--view-title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: $font-size-h2;
+    color: $example-black;
+  }
+  .view-blog-entries-for-home-page {
+    .view-content {
+      margin-top: 1em;
+      .views-row {
+        margin-bottom: 1.5em;
+        .views-field-title {
+          font-family: $headings-font-family;
+          font-weight: $headings-font-weight;
+          font-size: $font-size-h3;
+          color: $example-red;
+        }
+        .views-field-body {
+          a.More {
+            margin-left: 0.5em;
+          }
+        }
+      }
+    }
+  }
+}
+
+.paragraph.paragraph--type--bp-simple.paragraph--color.paragraph,
+.paragraph--type--white-paper.paragraph--color.paragraph {
+  border: 1px solid $brand-success;
+  border-radius: 4px;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  color: $example-black;
+  a {
+    color: $example-black;
+  }
+  &.paragraph--color--primary {
+    background-color: $brand-primary;
+  }
+  &.paragraph--color--success {
+    background-color: $brand-success;
+  }
+  &.paragraph--color--info {
+    background-color: $brand-info;
+  }
+  .paragraph__column {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .field--name-bp-text {
+    font-size: 1.1em;
+    img {
+      max-width: 100%;
+    }
+  }
+  .file {
+    font-size: 1em;
+    & > span {
+      background: none;
+      color: #fff;
+      .glyphicon {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+uuid: 0d39be84-d64c-4be0-a9dc-2d3fda6d0d36
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.page.body
+    - field.field.node.page.field_related_organization
+    - field.field.node.page.field_related_state_foi_resource
+    - field.field.node.page.field_test
+    - field.field.node.page.page_type
+    - field.field.node.page.upload
+    - node.type.page
+  module:
+    - image
+    - user
+id: node.page.rss
+targetEntityType: node
+bundle: page
+mode: rss
+content:
+  field_test:
+    label: above
+    weight: 31
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_related_organization: true
+  field_related_state_foi_resource: true
+  page_type: true
+  upload: true

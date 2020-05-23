@@ -1,0 +1,60 @@
+.example-above-header {
+  position: relative;
+  .example-social-media {
+    @media (min-width: $screen-sm-min) {
+      position: absolute;
+      top: 0;
+      right: 3em;
+    }
+  }
+}
+.example-header.row {
+  @media (min-width: $screen-sm-min) {
+    display: table;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  .logo-wrapper {
+    img {
+      max-width: 100%;
+    }
+    @media (min-width: $screen-sm-min) {
+      display: table-cell;
+      float: none;
+      vertical-align: top;
+    }
+  }
+
+  .example-title-text {
+    text-align: center;
+    a.navbar-brand {
+      display: none;
+    }
+    @media (min-width: $screen-sm-min) {
+      display: table-cell;
+      float: none;
+      vertical-align: bottom;
+    }
+
+    .navbar-brand {
+      font-family: $headings-font-family;
+      font-weight: $headings-font-weight;
+      font-size: 1.1em;
+      padding: 0;
+      margin: 0.5em 0;
+      line-height: $headings-line-height;
+      height: inherit;
+      text-align: center;
+      float: none;
+    }
+  }
+
+}
+
+.social-media-links--platforms {
+  text-align: center;
+  @media (min-width: $screen-sm-min) {
+    text-align: right;
+  }
+}

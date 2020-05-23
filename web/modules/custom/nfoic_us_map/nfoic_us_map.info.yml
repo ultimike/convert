@@ -1,0 +1,8 @@
+name: NFOIC US Map
+type: module
+description: Displays a clickable JavaScript map of the US via http://simplemaps.com/custom/us/whbBLmI3.
+core: 8.x
+package: NFOIC
+
+libraries:
+  - 'nfoic_us_map/map-stuff'

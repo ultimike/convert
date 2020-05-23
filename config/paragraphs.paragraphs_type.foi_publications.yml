@@ -1,0 +1,7 @@
+uuid: cc582c96-685a-4a77-a57b-b2fe197960ac
+langcode: en
+status: true
+dependencies: {  }
+id: foi_publications
+label: 'FOI publications'
+behavior_plugins: {  }

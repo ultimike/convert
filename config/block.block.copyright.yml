@@ -1,0 +1,25 @@
+uuid: 5588fdd2-56cf-43a5-a1e9-e977fed22532
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3b2abfc0-8fde-4f1f-bb98-430e35b5337a'
+  module:
+    - block_content
+  theme:
+    - nfoic
+id: copyright
+theme: nfoic
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:3b2abfc0-8fde-4f1f-bb98-430e35b5337a'
+settings:
+  id: 'block_content:3b2abfc0-8fde-4f1f-bb98-430e35b5337a'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
